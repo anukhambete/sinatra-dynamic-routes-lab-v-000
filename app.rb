@@ -43,6 +43,9 @@ class App < Sinatra::Base
     elsif params[:operation] == "multiply"
       @result = @num1*@num2
       "#{@result}"
+    elsif params[:operation] == "divide"
+      @result = @num1*@num2
+      "#{@result}"
 
   end
 
